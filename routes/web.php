@@ -30,7 +30,7 @@ Route::middleware('auth')->group(function () {
 });
 
 Route::get('/test', function () {
-  return view('test');
+    return view('test');
 });
 
 require __DIR__.'/auth.php';
